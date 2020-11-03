@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  /* text-align: center; */ }
+  body #layout-main {
+    height: 100%;
+    overflow: auto; 
+    background: repeating-linear-gradient(23deg, #020202, #000000d1 41px); }

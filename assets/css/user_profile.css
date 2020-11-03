@@ -1,0 +1,42 @@
+#userprofile {
+background-color: aliceblue; 
+text-align: center;
+box-shadow: 1px 7px 15px 20px black;
+height: fit-content;
+width: 40%;
+position: relative;
+left: 30%;
+top: 5%;
+}
+#profile{
+  height: fit-content;
+width: 70vw;
+background: aliceblue;
+position: relative;
+top: 15%;
+left: 15%;
+display: inline-flex;
+font-size: 1.2rem;
+box-shadow: 1px 7px 15px 20px black;
+}
+
+form input[type=text]{
+ height: 22%;
+ width: fit-content;
+ font-size: 1.5rem;
+ border: none;
+}
+form input[type=email]{
+  height: 22%;
+  width: fit-content;
+  font-size: 1.5rem;
+  border: none;
+ }
+ 
+ #profile span
+ { height: fit-content;
+  width: fit-content;
+   font-size: 2rem;
+   font-weight: 300;
+ padding: 1rem;
+ }

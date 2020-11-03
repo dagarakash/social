@@ -1,0 +1,15 @@
+#sign-up{
+    font-family: Helvetica;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    background-color: #52575a;
+    color: ghostwhite;
+    padding: 45px;
+    height: 25%;
+    box-shadow: 1px 6px 20px 20px #000000;
+    width: 32%;
+}
+#sign-up a{
+    color: inherit;
+}
