@@ -1,7 +1,7 @@
 const nodemailer = require("nodemailer");
 const ejs = require('ejs');
 const path = require('path')
-
+require('dotenv').config();
 
 let transporter = nodemailer.createTransport({
     service: 'gmail',
@@ -9,8 +9,8 @@ let transporter = nodemailer.createTransport({
     port: 587,
     secure: false,
     auth: {
-        user: 'socialwbst@gmail.com',
-        pass: 'qwertysocial'
+        user: process.env.id,
+        pass: process.env.password
     }
 });
 
